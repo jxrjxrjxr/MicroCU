@@ -1,0 +1,11 @@
+times=10
+CloudRanger
+MonitorRank
+DyCause + linear/prevlatter/BPMF
+MicroCI + 4/3/2/1/0.5/0.3333
+sample_rate=0.2
+pc_aggregate=6
+
+实验随机性较大，建议多跑几组
+
+pc=6，第二组实验

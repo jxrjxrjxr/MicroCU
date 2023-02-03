@@ -1,0 +1,15 @@
+times=10
+DyCause + linear/prevlatter/BPMF
+MicroCI + 4/3/2/1/0.5/0.3333
+sample_rate=0.3
+
+上次sample_rate=0.4的时候收获了大胜利！
+也让我看到了，或许我只有在很低的sample_rate的时候才能胜利
+因此暂时决定0.4 0.3 0.2这样去间隔
+
+DyCause的三个预处理方法各有优劣
+MicroCI的却是直接递减，不由让我想到是不是0.5 0.333会更好...
+期望结果：
+MicroCI结果仍然递减，但是好于DyCause
+
+另外由于多进程版本并没有显著加速（单次仍然2min50s），因此本版本不采纳

@@ -1,0 +1,27 @@
+流程已经打通，首次正式对比实验
+tims=20, rate=0.45
+五种方法对比
+DyCause + prevlatter
+DyCause + BPMF
+DyCause + BTMF
+MicroCI + prevlatter
+MicroCI + prevlatter + normalization
+在此之前已经修复了一些bug：
+1. 观察到对于某些输入，MicroCI没有输出path，并且联想到
+MicroCI的path数量明显要比DyCause要少，推测它有些path没
+有记录进去，加入在走不通时把当前路径加入路径库的代码（因
+为有peak的存在，所以可能虽然有边但是并不能走通）
+2. 并不确定normalization对结果是否有影响，所以带着
+3. 依旧采用3：1的参数比例来决定count和corr的作用，如果效
+果不好再尝试把别的参数比例也加进来
+
+期望结果：
+5 > 4 > 3, 2, 1
+
+结果：
+5=4
+PR 1>4 Acc 1<4
+MicroCI只在Acc的指标上有优势，从55%提升到了55.34%
+1>2
+在各个指标上均超过
+3没有测量，因为单次时间超过1h，用时过长

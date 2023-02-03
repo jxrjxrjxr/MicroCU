@@ -1,0 +1,11 @@
+times=10
+CloudRanger
+MonitorRank
+DyCause + linear/prevlatter/BPMF
+MicroCI + 4/3/2/1/0.5/0.3333
+sample_rate=0.4
+
+考虑传入cData而不是mData
+pc_aggregate更精细化调整为8
+加入了fillData的操作，防止最小二乘法的时候出错
+减小pc_aggregate=1

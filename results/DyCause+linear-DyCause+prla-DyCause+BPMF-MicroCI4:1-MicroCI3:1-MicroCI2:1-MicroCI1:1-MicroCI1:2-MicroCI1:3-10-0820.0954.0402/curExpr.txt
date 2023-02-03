@@ -1,0 +1,14 @@
+times=10
+DyCause + linear/prevlatter/BPMF
+MicroCI + 4/3/2/1/0.5/0.3333
+sample_rate=0.1
+
+0.2效果也很好
+修复了很多关于过于稀疏时候的问题
+包括：
+1. 过于稀疏时无法找到非零值插值，导致interpolate1d失效
+2. 在只有一个值的时候也要处理，因为至少要两个值才能插值
+3. 在只有一个值的时候应该用data[x, y].item()取值，否则会有问题
+4. 把data std=0的点的std改成1，防止后面granger遇到NaN数据
+
+这次尝试0.1，看下限在哪

@@ -1,0 +1,6 @@
+times=10
+MicroCI+step70/50/30
+sample_rate=0.4
+pc_aggregate=6
+
+对结果无欲无求

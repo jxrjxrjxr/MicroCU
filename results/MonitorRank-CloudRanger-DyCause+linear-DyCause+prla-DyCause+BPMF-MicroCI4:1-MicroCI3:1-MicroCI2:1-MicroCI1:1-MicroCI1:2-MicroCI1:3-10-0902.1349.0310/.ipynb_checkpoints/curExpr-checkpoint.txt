@@ -1,0 +1,10 @@
+times=10
+CloudRanger
+MonitorRank
+DyCause + linear/prevlatter/BPMF
+MicroCI + 4/3/2/1/0.5/0.3333
+sample_rate=0.3
+pc_aggregate=4
+
+rate=0.4的时候结果略有点不合理呀
+等会看看怎么改

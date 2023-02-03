@@ -1,0 +1,13 @@
+openpyxl==3.0.7
+scipy==1.7.0
+numpy==1.19.5
+opencv_python==4.5.1.48
+statsmodels==0.12.2
+matplotlib==3.4.2
+tabulate==0.8.9
+tqdm==4.61.1
+pandas==1.2.5
+networkx==2.5.1
+causality==0.0.10
+graph_tool==2.11
+Pillow==9.2.0

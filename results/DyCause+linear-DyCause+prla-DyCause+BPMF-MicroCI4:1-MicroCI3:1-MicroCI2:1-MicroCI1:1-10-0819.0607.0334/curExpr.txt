@@ -1,0 +1,12 @@
+times=10
+DyCause + linear/prevlatter/BPMF
+MicroCI + 4/3/2/1
+相当于超参实验和对比试验一起做
+sample_rate=0.4
+目前尚不确定合适的rate间隔是多少，因此用0.05的间隔尝试
+如果可以的话，就0.45 0.4 0.35 0.3四组实验
+
+期望时间4h左右
+期望结果
+1234效果依次递增
+继续在ACC上超过DyCause，在PR上输掉

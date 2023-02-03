@@ -1,0 +1,10 @@
+times=10
+DyCause + linear/prevlatter/BPMF
+MicroCI + 4/3/2/1/0.5/0.3333
+sample_rate=0.2
+
+0.3同样大获全胜！
+这次在DyCauseEnv内核中运行，新添加了多进程版本
+本来是没效果的，在重新安装包之后效果好很多
+单次granger从3min直接降到了10s
+这次就把BPMF的迭代次数也调低，缩小运行时间
