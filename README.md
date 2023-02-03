@@ -34,4 +34,3 @@ def rcaMicroCU(cData, _head, config, display=False):
     return metricsABC, (nodesABC,)
 ```
 So to conduct experiments on users' own data, they just need to make sure the data is in `numpy` format, where each row represents a particular metric, and each column represents a time point. Then simply pass it as `cData` and name each metric in `_head` and run the script. Additionally, one can reset the hyperparameters(abnormal length/step/path/c_corr) by modifying the content of `config.json` in the `./params/config.json` file.
----
